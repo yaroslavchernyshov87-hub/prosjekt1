@@ -1,11 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DocumSDFFDS FDSF DSAF ADF DASen ggggg 122 12t</title>
+    <title>Kalkulator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+    <h1>Kalkulator</h1>
+
+<input type="number" id="num1" placeholder="Første tall">
+<input type="number" id="num2" placeholder="Andre tall">
+
+
+        <div class="buttons">
+            <button onclick="calculate('+')">+</button>
+            <button onclick="calculate('-')">−</button>
+            <button onclick="calculate('*')">×</button>
+            <button onclick="calculate('/')">÷</button>
+        </div>
+
+        <h2>Resultat: <span id="result">0</span></h2>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
